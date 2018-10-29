@@ -1,0 +1,464 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ROOF TECH | ENGINEERING</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{% static  'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{% static  'lib/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+  <link href="{% static  'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static  'lib/magnific-popup/magnific-popup.css' %}" rel="stylesheet">
+  <link href="{% static  'lib/hover/hover.min.css' %}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{% static  'css/style.css' %}" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="{% static  'css/responsive.css' %}" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{% static  'images/favicon.png' %}">
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="{% url 'home-view'%}"><img src="{% static 'images/logo.png' %}" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#journal" class="smoothScroll">Connect</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1>We are <br/> ROOF TECH <br/> <span class="typed"></span></h1>
+        <p>Roofing Solutions, Designing, Fabrication</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="{% static 'images/me.jpg' %}" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">ROOFTECH Engineering is a professionally experienced company  with vast skill and expertise in shed and fabrication work.</p>
+            <p class="separator">We at ROOFTECH Engineering provides you the top notch solution for Roofing Solutions meeting client requirement  and tight deadlines in all the Commercial, Industrial as well as Residential Buildings.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-ios-home"></i>
+            <span>SHED SOLUTION</span>
+            <p class="separator">By taking time to discover what you need, we can make suggestions you may not have considered, and that will provide you with shed you within your budget.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-barcode"></i>
+            <span>FABRICATION WORK</span>
+            <p class="separator">Our fabrication works is one of the fastest growing areas of our business. We specialize in series of fabrication from carbon, stainless and exotic alloys as stand alone pipe spools or in modules and skids. </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-android-boat"></i>
+            <span>100% WATER PROOF</span>
+            <p class="separator">Our solutions are effective, durable and water proof to all extreme weather conditions. </p>
+
+          </div>
+
+          <div class="services-block">
+                
+            <i class="ion-paintbrush"></i>
+            <span>2D & 3D ENGINEERING DRAWING</span>
+            <p class="separator">Define the requirements for engineering products or components with our smart and effective 2D and 3D drawings.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-android-clipboard"></i>
+            <span>Acknowledgement Letter</span>
+            <p class="separator">We will provide the acknowledgement letter from Muncipal.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class=" ion-android-done-all"></i>
+            <span>Top Quality</span>
+            <p class="separator">Your trust in our product quality is our success and we are proud in delivering and maintaing such high satisfaction of our customer.</p>
+
+          </div>
+
+          
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Our Portfolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".shed">Shed</li>
+              <li class="filter" data-filter=".fabrication">Fabrication</li>
+              <li class="filter" data-filter=".kits">Kits</li>
+              <li class="filter" data-filter=".ventilator">Ventilator</li>
+              
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
+              <a class="popup-img" href="{% static 'images/portfolio/1.jpg' %}">
+                <img src="{% static 'images/portfolio/1.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
+              <a class="popup-img" href="{% static 'images/portfolio/2.jpg' %}">
+                <img src="{% static 'images/portfolio/2.jpg' %}"  alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all fabrication">
+              <a class="popup-img" href="{% static 'images/portfolio/3.jpg' %}">
+                <img src="{% static 'images/portfolio/3.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all fabrication shed">
+              <a class="popup-img" href="{% static 'images/portfolio/4.jpg' %}">
+                <img src="{% static 'images/portfolio/4.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
+              <a class="popup-img" href="{% static 'images/portfolio/5.jpg' %}">
+                <img src="{% static 'images/portfolio/5.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed fabrication">
+              <a class="popup-img" href="{% static 'images/portfolio/6.jpg' %}">
+                <img src="{% static 'images/portfolio/6.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed fabrication">
+              <a class="popup-img" href="{% static 'images/portfolio/7.jpg' %}">
+                <img src="{% static 'images/portfolio/7.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all kits">
+              <a class="popup-img" href="{% static 'images/portfolio/8.jpg' %}">
+                <img src="{% static 'images/portfolio/8.jpg' %}"  alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed ventilator">
+              <a class="popup-img" href="{% static 'images/portfolio/9.jpg' %}">
+                <img src="{% static 'images/portfolio/9.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all kits">
+              <a class="popup-img" href="{% static 'images/portfolio/10.jpg' %}">
+                <img src="{% static 'images/portfolio/10.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all fabrication shed">
+              <a class="popup-img" href="{% static 'images/portfolio/11.jpg' %}">
+                <img src="{% static 'images/portfolio/11.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed fabrication">
+              <a class="popup-img" href="{% static 'images/portfolio/12.jpg' %}">
+                <img src="{% static 'images/portfolio/12.jpg' %}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all fabrication">
+              <a class="popup-img" href="{% static 'images/portfolio/13.jpeg' %}">
+                <img src="{% static 'images/portfolio/13.jpeg' %}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
+              <a class="popup-img" href="{% static 'images/portfolio/14.jpg' %}">
+                <img src="{% static 'images/portfolio/14.jpg' %}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
+              <a class="popup-img" href="{% static 'images/portfolio/15.jpg'%}">
+                <img src="{% static 'images/portfolio/15.jpg' %}" alt="img">
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
+              <a class="popup-img" href="{% static 'images/portfolio/16.jpg' %}">
+                <img src="{% static 'images/portfolio/16.jpg' %}" alt="img">
+              </a>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Connect</h2>
+      </div>
+      <div class="row">
+        <div class="card col-md-4 col-sm-6" >
+          <div class="card-body">
+            <h5 class="card-title">Swapnil S. Dalvi</h5>
+            <h6 class="card-subtitle mb-2 text-muted">B.E. Mechanical</h6>
+            <p class="card-text">+91 7977904591</p>
+          </div>
+        </div>
+        
+        <div class="card col-md-4 col-sm-6" >
+          <div class="card-body">
+            <h5 class="card-title">Sagar J. Nimase</h5>
+            <h6 class="card-subtitle mb-2 text-muted">B.E. Civil</h6>
+            <p class="card-text">+91 8108923621</p>
+          </div>
+        </div>
+
+        
+        <div class="card col-md-4 col-sm-6" >
+          <div class="card-body">
+            <h5 class="card-title">Atish V. Pawar</h5>
+            <h6 class="card-subtitle mb-2 text-muted">B.E. Mechanical</h6>
+            <p class="card-text">+91 8104828779</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+  </div>
+  <!-- End section journal -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+                 <h2 class="mb-30">ROOFTECH ENGINEERING</h2>
+              <ul class="contact-details">
+                <li><span>D-402, Shakuntala Sustri Co-Operative Society</span></li>
+                <li><span>Lodha Heaven, Near Chatrapati Shivaji Maharaj Chock, </span></li>
+                <li><span>Dombivli (E), Maharashtra - 421 204pan></li>
+                <li><span>Mail:</span></li>
+                <li><span>rooftecher.03@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights ROOFTECH ENGINEERING. All rights reserved.</p>
+
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'lib/jquery/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'lib/typed/typed.js' %}"></script>
+  <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'lib/magnific-popup/magnific-popup.min.js' %}"></script>
+  <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="{% static 'contactform/contactform.js' %}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
