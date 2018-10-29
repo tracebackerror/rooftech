@@ -1,1 +1,1 @@
-web: gunicorn rooftech.wsgi --log-file
+web: gunicorn rooftech.wsgi
