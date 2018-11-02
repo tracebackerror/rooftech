@@ -17,8 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include, re_path
 
-from home.views import HomeView
+from home.views import home
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^$', HomeView.as_view(), name='home-view')
+    re_path(r'^$', home, name='home-view')
 ]
