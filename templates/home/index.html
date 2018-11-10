@@ -52,6 +52,7 @@
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
           <li><a href="#journal" class="smoothScroll">Connect</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="#paynow" class="smoothScroll">Pay</a></li>
         </ul>
 
       </div>
@@ -201,33 +202,9 @@
 
           <div class="portfolio-container">
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/1.jpg' %}">
-                <img src="{% static 'images/portfolio/1.jpg' %}" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/2.jpg' %}">
-                <img src="{% static 'images/portfolio/2.jpg' %}"  alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all fabrication">
-              <a class="popup-img" href="{% static 'images/portfolio/3.jpg' %}">
-                <img src="{% static 'images/portfolio/3.jpg' %}" alt="img">
-              </a>
-            </div>
-
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all fabrication shed">
               <a class="popup-img" href="{% static 'images/portfolio/4.jpg' %}">
                 <img src="{% static 'images/portfolio/4.jpg' %}" alt="img">
-              </a>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/5.jpg' %}">
-                <img src="{% static 'images/portfolio/5.jpg' %}" alt="img">
               </a>
             </div>
 
@@ -257,12 +234,6 @@
               </a>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all kits">
-              <a class="popup-img" href="{% static 'images/portfolio/10.jpg' %}">
-                <img src="{% static 'images/portfolio/10.jpg' %}" alt="img">
-              </a>
-            </div>
-
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all fabrication shed">
               <a class="popup-img" href="{% static 'images/portfolio/11.jpg' %}">
                 <img src="{% static 'images/portfolio/11.jpg' %}" alt="img">
@@ -288,26 +259,8 @@
             </div>
             
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/15.jpg'%}">
-                <img src="{% static 'images/portfolio/15.jpg' %}" alt="img">
-              </a>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
               <a class="popup-img" href="{% static 'images/portfolio/16.jpg' %}">
                 <img src="{% static 'images/portfolio/16.jpg' %}" alt="img">
-              </a>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/17.jpg' %}">
-                <img src="{% static 'images/portfolio/17.jpg' %}" alt="img">
-              </a>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/18.jpg' %}">
-                <img src="{% static 'images/portfolio/18.jpg' %}" alt="img">
               </a>
             </div>
 
@@ -324,12 +277,6 @@
               </a>
             </div>
             
-            
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/20.jpg' %}">
-                <img src="{% static 'images/portfolio/20.jpg' %}" alt="img">
-              </a>
-            </div>
             
             
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
@@ -353,11 +300,6 @@
             </div>
             
             
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/24.jpeg' %}">
-                <img src="{% static 'images/portfolio/24.jpeg' %}" alt="img">
-              </a>
-            </div>
             
             
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
@@ -374,12 +316,6 @@
             </div>
             
             
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/27.jpg' %}">
-                <img src="{% static 'images/portfolio/27.jpg' %}" alt="img">
-              </a>
-            </div>
-            
             
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
               <a class="popup-img" href="{% static 'images/portfolio/28.jpg' %}">
@@ -394,12 +330,6 @@
               </a>
             </div>
             
-            
-            <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
-              <a class="popup-img" href="{% static 'images/portfolio/30.jpg' %}">
-                <img src="{% static 'images/portfolio/30.jpg' %}" alt="img">
-              </a>
-            </div>
             
             
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all shed">
@@ -466,7 +396,26 @@
   </div>
   <!-- End section journal -->
 
-
+  <!-- start sectoion contact -->
+  <div id="paynow" class="paddsection">
+    <div class="container">
+        <div class="row align-items-center">
+        
+        <div class="card" style="width:100%;">
+          <img class="card-img-top" src="{% static 'images/payment.jpg' %}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">We Accept Online Payment</h5>
+            <p class="card-text">Make instant payment with for the pending bills, checkouts and advance.</p>
+            <a href="https://www.instamojo.com/@rooftecher03/" rel="im-checkout" data-behaviour="remote" data-style="light" data-text="Pay To Roof Tech"></a>
+<script src="https://js.instamojo.com/v1/button.js"></script>
+          </div>
+        </div>
+        
+        
+           
+        </div>
+    </div>
+  </div>
   
   <!-- start sectoion contact -->
   <div id="contact" class="paddsection">

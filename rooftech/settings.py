@@ -25,7 +25,7 @@ SECRET_KEY = 'a$!-m()q(wks$gb#gsw^nu@t@qc83&n=9@c_mwtkh_z2n*hxtp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rooftech.herokuapp.com','127.0.0.1', 'www.rooftechengineering.in']
+ALLOWED_HOSTS = ['rooftech.herokuapp.com','127.0.0.1', 'www.rooftechengineering.in', 'rooftechengineering.in']
 
 
 # Application definition
