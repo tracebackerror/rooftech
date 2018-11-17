@@ -174,6 +174,31 @@
   <!-- end section services -->
 
 
+  
+  <!-- start section project -->
+  <div id="projects">
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+        {% for each in project %}
+          <div class="services-block">
+            <i class="ion-ios-home"></i>
+            <span>{{ each.title }}</span>
+            <p class="separator">{{ each.description }}</p>
+            <img src="/media/{{ each.model_pic }}" height="200px">
+          </div>
+        {% endfor %}
+          
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section project -->
+  
+  
+  
+  
   <!-- start section portfolio -->
   <div id="portfolio" class="text-center paddsection">
 

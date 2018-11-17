@@ -5,7 +5,7 @@ from django.http import HttpResponse
 from django.views import View
 from django.views.generic.base import TemplateView
 from .forms import ContactForm
-from .models import Contact
+from .models import Contact, Project
 
 def home(request):
     if request.method == 'POST':
@@ -20,6 +20,8 @@ def home(request):
            
     else:
         form = ContactForm()
-    return render(request,  "home/index.html", {'form': form})
+    
+    project_all = Project.objects.all()
+    return render(request,  "home/index.html", {'form': form, 'project':project_all})
     
  
