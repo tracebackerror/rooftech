@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["<strong>Engineering.</strong>", "Roofing.", "Designing.", "Fabrication.", "Maintenance."],
+      strings: ["<strong>Engineering Pvt Ltd.</strong>", "Roofing.", "Designing.", "Fabrication.", "Maintenance."],
       typeSpeed: 100,
       loop: true,
     });
